@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  border-right: 2px solid #333333;
+}
+
+.sidebar-logo h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  margin: 20px;
+  color: #333333;
+}
+
+.sidebar-list ul{
+  margin: 40px 0px 0px 0px;
+}
+
+.sidebar-list li{
+  list-style: none;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  color: #333333;
+  padding: 0px;
+  width: 100%;
+}
+
+.sidebar-list a{
+  text-decoration: none;
+}
+
+.sidebar-list li:hover{
+  background-color: #eeeeee;
+}
+
+.main{
+  margin-left: 250px;
+}
+
+#gold-medal h1{
+  margin: 50px;
+  color: #333333;
+}
+
+#gold-medal a{
+  color: #333333;
+  text-decoration: none;
+}
+
+#gold-medal a:hover{
+  text-decoration: underline;
+}
+
+.gold-medal-list{
+  margin: 0px 0px 0px 90px;
+}
