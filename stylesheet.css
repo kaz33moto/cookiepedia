@@ -55,6 +55,10 @@
   text-decoration: none;
 }
 
+#gold-medal li{
+  list-style: none;
+}
+
 #gold-medal a:hover{
   text-decoration: underline;
 }
