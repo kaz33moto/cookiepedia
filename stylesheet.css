@@ -120,7 +120,7 @@
 }
 
 .gold-medal{
-  width: 50%;
+  width: 33%;
   flex-wrap: wrap;
 }
 
@@ -150,8 +150,12 @@
   margin: 0px 0px 0px 90px;
 }
 
+
+
+
+
 .morning-work{
-  width: 50%;
+  width: 33%;
   flex-wrap: wrap;
 }
 
@@ -176,5 +180,38 @@
 }
 
 .morning-work-list{
+  margin: 0px 0px 0px 90px;
+}
+
+
+
+
+
+.todays-work{
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+.todays-work h1{
+  margin: 50px;
+  color: #333333;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.todays-work a{
+  color: #333333;
+  list-style: none;
+}
+
+.todays-work li{
+  list-style: none;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.todays-work a:hover{
+  text-decoration: underline;
+}
+
+.todays-work-list{
   margin: 0px 0px 0px 90px;
 }
