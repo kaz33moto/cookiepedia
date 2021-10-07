@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Roboto Slab', serif;
   font-family: 'Noto Serif JP', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .sidebar{
@@ -9,11 +10,11 @@
   left: 0px;
   width: 250px;
   height: 100%;
-  border-right: 2px solid #333333;
+  border-right: 1px solid #333333;
 }
 
 .sidebar-logo h1{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 35px;
   margin: 20px;
   color: #333333;
@@ -34,7 +35,6 @@
   color: #333333;
   padding: 10px;
   margin-right: 30px;
-  text-align: center;
 }
 
 .sidebar-list a{
@@ -42,16 +42,66 @@
 }
 
 .sidebar-list li:hover{
-  background-color: #eeeeee;
+  text-decoration: underline;
+}
+
+.sidebar-list2 ul{
+  margin: 40px auto;
+  padding-top: 40px;
+  border-top: 1px solid #333333;
+}
+
+.sidebar-list2 li{
+  list-style: none;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  color: #333333;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.sidebar-list2 a{
+  text-decoration: none;
+}
+
+.sidebar-list2 li:hover{
+  text-decoration: underline;
+}
+
+.other ul{
+  margin: 40px auto;
+  padding-top: 40px;
+  border-top: 1px solid #333333;
+}
+
+.other li{
+  list-style: none;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  color: #333333;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.other a{
+  text-decoration: none;
+}
+
+.other li:hover{
+  text-decoration: underline;
 }
 
 .bottom-list ul{
   position: fixed;
   bottom: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #333333;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .bottom-list li{
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .bottom-list a{
@@ -83,11 +133,13 @@
 .gold-medal a{
   color: #333333;
   list-style: none;
+  text-decoration: none;
 }
 
 .gold-medal li{
   list-style: none;
   font-family: 'Noto Serif JP', serif;
+  padding: 5px;
 }
 
 .gold-medal a:hover{
