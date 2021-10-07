@@ -208,6 +208,10 @@
   font-family: 'Noto Serif JP', serif;
 }
 
+.todays-work a{
+  text-decoration: none;
+}
+
 .todays-work a:hover{
   text-decoration: underline;
 }
