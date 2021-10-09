@@ -117,11 +117,13 @@
 .main{
   margin-left: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .gold-medal{
-  width: 33%;
+  width: 50%;
   flex-wrap: wrap;
+  margin-bottom: 100px
 }
 
 .gold-medal h1{
@@ -155,8 +157,9 @@
 
 
 .morning-work{
-  width: 33%;
+  width: 50%;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .morning-work h1{
@@ -190,9 +193,12 @@
 
 
 
+
+
 .todays-work{
-  width: 33%;
+  width: 50%;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .todays-work h1{
