@@ -175,6 +175,10 @@
   font-family: 'Noto Serif JP', serif;
 }
 
+.morning-work a{
+  text-decoration: none;
+}
+
 .morning-work a:hover{
   text-decoration: underline;
 }
@@ -182,7 +186,6 @@
 .morning-work-list{
   margin: 0px 0px 0px 90px;
 }
-
 
 
 
