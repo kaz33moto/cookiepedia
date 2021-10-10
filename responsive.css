@@ -41,6 +41,18 @@
   .todays-work{
     width: 100%;
   }
+
+  .main h1{
+    margin-left: 20px;
+  }
+
+  .main p{
+    margin-left: 20px;
+  }
+
+  .main ul{
+    margin-left: 0px;
+  }
 }
 
 @media(min-width:1000px){
