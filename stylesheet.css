@@ -20,6 +20,10 @@
   color: #333333;
 }
 
+.mobile-menu img{
+  width: 50px;
+}
+
 .sidebar-logo a{
   text-decoration: none;
 }
@@ -92,8 +96,7 @@
 }
 
 .bottom-list ul{
-  position: fixed;
-  bottom: 50px;
+  bottom: 0px;
   padding-top: 30px;
   border-top: 1px solid #333333;
   font-family: 'Noto Serif JP', serif;
