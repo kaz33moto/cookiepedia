@@ -20,8 +20,50 @@
   color: #333333;
 }
 
-.mobile-menu img{
-  width: 50px;
+#menubtn img{
+    width:100%;
+    max-width: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+}
+.w1000{
+    max-width:1000px;
+    margin: 0 auto;
+}
+nav{
+    background-color:#ccc;
+    padding:20px 3%;
+    display: none;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    opacity: 0.9
+}
+
+nav li{
+  list-style: none;
+  padding: 10px 0px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
+}
+
+nav a{
+  color: #333333;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+#nav-input:checked ~ nav {/*チェック入ってるとき ~ メニューが*/
+    display: block;/*追加*/
+}
+@keyframes fadeIn {
+    from { opacity: 0; }/*追加*/
+    to { opacity: 1; }/*追加*/
+  }
+.nav-hidden{
+    display:none;
 }
 
 .sidebar-logo a{
