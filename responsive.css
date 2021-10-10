@@ -9,12 +9,6 @@
     float: left;
   }
 
-  .mobile-menu img{
-    position: fixed;
-    right: 10px;
-    top: 20px;
-  }
-
   .sidebar-list ul{
     display: none;
   }
@@ -50,7 +44,11 @@
 }
 
 @media(min-width:1000px){
-  .mobile-menu{
+  #menubtn{
+    display: none;
+  }
+
+  nav{
     display: none;
   }
 }
