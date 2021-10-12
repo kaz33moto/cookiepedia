@@ -45,7 +45,7 @@ nav{
 nav li{
   list-style: none;
   padding: 10px 0px;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 25px;
 }
 
@@ -76,7 +76,7 @@ nav a{
 
 .sidebar-list li{
   list-style: none;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px;
   color: #333333;
   padding: 10px;
@@ -99,7 +99,7 @@ nav a{
 
 .sidebar-list2 li{
   list-style: none;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px;
   color: #333333;
   padding: 10px;
@@ -122,7 +122,7 @@ nav a{
 
 .other li{
   list-style: none;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px;
   color: #333333;
   padding: 10px;
@@ -141,7 +141,7 @@ nav a{
   bottom: 0px;
   padding-top: 30px;
   border-top: 1px solid #333333;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .bottom-list li{
@@ -174,7 +174,7 @@ nav a{
 .gold-medal h1{
   margin: 50px;
   color: #333333;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .gold-medal a{
@@ -185,7 +185,7 @@ nav a{
 
 .gold-medal li{
   list-style: none;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   padding: 5px;
 }
 
@@ -210,7 +210,7 @@ nav a{
 .morning-work h1{
   margin: 50px;
   color: #333333;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .morning-work a{
@@ -220,7 +220,7 @@ nav a{
 
 .morning-work li{
   list-style: none;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .morning-work a{
@@ -249,7 +249,7 @@ nav a{
 .todays-work h1{
   margin: 50px;
   color: #333333;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .todays-work a{
@@ -259,7 +259,7 @@ nav a{
 
 .todays-work li{
   list-style: none;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .todays-work a{
