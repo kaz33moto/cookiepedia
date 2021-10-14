@@ -1,6 +1,6 @@
 function first(){
   var user = prompt("コードを入力してください。");
-  if(user=="321"){
+  if(user=="kaz33"){
 
   }else{
     alert("コードが間違っています。")
