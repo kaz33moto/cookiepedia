@@ -68,6 +68,14 @@
   .gold-medal-list{
     margin-left: 0px;
   }
+  
+  .morning-work-list{
+    margin-left: 0px;
+  }
+
+  .todays-work-list{
+    margin-left: 0px;
+  }
 }
 
 @media(min-width:1000px){
