@@ -45,15 +45,27 @@
     margin-bottom: 40px;
   }
 
+  .main{
+    margin-left: 0px;
+  }
+
   .main h1{
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .main p{
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .main ul{
+    margin-left: 0px;
+  }
+
+  .main li{
+    margin-left: 0px;
+  }
+
+  .gold-medal-list{
     margin-left: 0px;
   }
 }
